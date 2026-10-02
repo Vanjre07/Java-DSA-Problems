@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Link List" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Stack" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Queues" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Trees" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Binary Search Tree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Hashing" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Hashing/Hashset" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Hashing/HashMap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Trie" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Arrays" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
