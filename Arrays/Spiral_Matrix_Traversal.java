@@ -1,6 +1,6 @@
 import java.util.*;
 public class Spiral_Matrix_Traversal {
-    public List<Integer> spiralOrder(int[][] matrix) {
+    public static List<Integer> spiralOrder(int[][] matrix) {
         int n = matrix.length;
         int m = matrix[0].length;
 
@@ -44,7 +44,15 @@ public class Spiral_Matrix_Traversal {
         return list;
 
     }
-    public static void main(String[]args){
+    public static void main(String[] args) {
+        int[][] matrix = {
+                {1, 2, 3, 4, 5},
+                {6, 7, 8, 9, 10},
+                {11, 12, 13, 14, 15},
+                {16, 17, 18, 19, 20}
+        };
 
+        List<Integer> result = spiralOrder(matrix);
+        System.out.println(result);
     }
 }
