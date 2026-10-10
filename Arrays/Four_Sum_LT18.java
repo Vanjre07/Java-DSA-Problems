@@ -78,9 +78,15 @@ public class Four_Sum_LT18 {
         int[] nums = {1, 0, -1, 0, -2, 2};
         int target = 0;
 
-        List<List<Integer>> answer = Optimal_Approach.Four_Sum(nums, target);
+        List<List<Integer>> BetterSol = BetterApproach.Four_Sum(nums,target);
 
-        for (List<Integer> quadruplet : answer) {
+        for(List<Integer> quadruplet : BetterSol){
+            System.out.println(quadruplet);
+        }
+
+        List<List<Integer>> OptimalSol = Optimal_Approach.Four_Sum(nums, target);
+
+        for (List<Integer> quadruplet : OptimalSol) {
             System.out.println(quadruplet);
         }
     }
