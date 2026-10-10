@@ -1,7 +1,7 @@
 import java.util.*;
 public class Three_Sum_15 {
 
-    //Brute Force -> It only work for limited cases only, for other cases it Time limit will Exceed
+    //Brute Force -> It only work for limited cases only, for other cases it will Exceed the time limit
     static class Brute_Force{
         public static List<List<Integer>> Three_Sum(int[] nums) {
             Set<List<Integer>> list = new HashSet<>();
@@ -28,7 +28,7 @@ public class Three_Sum_15 {
 
     //Better Approach -> It also takes too much time, but it will run "NOT RECOMMENDED"
     static class Better_Approach{
-        public static List<List<Integer>> Three_Sum(int nums[]){
+        public static List<List<Integer>> Three_Sum(int []nums){
             Set<List<Integer>> Unique = new HashSet<>();
 
             for(int first = 0; first < nums.length; first++){
