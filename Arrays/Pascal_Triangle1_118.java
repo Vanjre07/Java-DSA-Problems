@@ -6,7 +6,6 @@ public class Pascal_Triangle1_118 {
         for(int i = 1; i <= N; i++){
             list.add(GenerateRow(i));
         }
-
         return list;
     }
 
