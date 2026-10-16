@@ -1,7 +1,7 @@
 import java.util.*;
 public class Sort_Colors_LT75 {
 
-    //Here this problem use DNF Algorithm (Duetche National Flag Algorithm) which is optimised compared to other sorting Algorithm
+    //Here this problem use DNF Algorithm (Deutsche National Flag Algorithm) which is optimized compared to other sorting Algorithm
     public static void SortColors(int []nums){
         int n = nums.length;
         int low = 0;
