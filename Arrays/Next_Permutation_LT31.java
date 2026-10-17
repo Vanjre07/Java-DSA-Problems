@@ -14,8 +14,10 @@ public class Next_Permutation_LT31 {
 
             if(pivot != -1)
                 for(int i = n -1; i >= pivot; i--) {
+                    if(nums[i] > nums[pivot]){
                     swap(nums, i, pivot);
                     break;
+                    }
                 }
 
             ReverseArray(nums,pivot+1,n - 1);

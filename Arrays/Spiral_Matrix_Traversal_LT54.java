@@ -1,5 +1,5 @@
 import java.util.*;
-public class Spiral_Matrix_Traversal {
+public class Spiral_Matrix_Traversal_LT54 {
     public static List<Integer> spiralOrder(int[][] matrix) {
         int n = matrix.length;
         int m = matrix[0].length;

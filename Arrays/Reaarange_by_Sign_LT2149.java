@@ -1,5 +1,5 @@
 import java.util.*;
-public class Reaarange_by_Sign {
+public class Reaarange_by_Sign_LT2149 {
 
     public static int[] rearrangeArray(int[] nums) {
         int n = nums.length;
