@@ -28,6 +28,46 @@ public class Set_Matrix_Zero_73 {
         }
     }
 
+    static class OptimalSolution{
+        public static void setZeroes(int[][]matrix){
+            int n = matrix.length;
+            int m = matrix[0].length;
+
+            int col0 = 1;
+
+            for(int col = 0; col < n; col++){
+                for(int row = 0; row < m; row++){
+                    if(matrix[col][row] == 0){
+                        matrix[col][0] = 0;
+                        if(row != 0) matrix[0][row] = 0;
+                        else col0 = 0;
+                    }
+                }
+            }
+
+            for(int col = 1; col < n; col++){
+                for(int row = 1; row < m; row++){
+                    if(matrix[col][row] != 0){
+                        if(matrix[0][row] == 0 || matrix[col][0] == 0){
+                            matrix[col][row] = 0;
+                        }
+                    }
+                }
+            }
+
+            if(matrix[0][0] == 0){
+                for(int row = 0; row <m; row++){
+                    matrix[0][row] = 0;
+                }
+            }
+
+            if(col0 == 0){
+                for(int col = 0; col < n; col++){
+                    matrix[col][0] = 0;
+                }
+            }
+        }
+    }
     public static void main(String[] args) {
         int[][] matrix = {
                 {1, 2, 0, 4},
@@ -36,7 +76,8 @@ public class Set_Matrix_Zero_73 {
                 {13, 14, 15, 16}
         };
 
-        Brute_Force.setZeroes(matrix);
+        //Brute_Force.setZeroes(matrix);
+        OptimalSolution.setZeroes(matrix);
         printMatrix(matrix);
     }
 
