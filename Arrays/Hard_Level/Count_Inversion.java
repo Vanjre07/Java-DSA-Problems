@@ -1,7 +1,8 @@
 package Hard_Level;
 import java.util.*;
+
 public class Count_Inversion {
-    public static int countInversion(int[]nums){
+    public static int countInversion( int[]nums){
         int n = nums.length;
         int count = MergeSort(nums,0,n-1);
         return count;
@@ -53,6 +54,7 @@ public class Count_Inversion {
         }
         return count;
     }
+
     public static void main(String[] args) {
         int []arr = {8, 4, 2, 1, 5, 3, 7, 6};
 
