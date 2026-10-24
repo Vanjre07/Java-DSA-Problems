@@ -18,6 +18,6 @@ This repository contains Java solutions and practice programs for data structure
 Compile and run a Java file from the project directory. For example:
 
 ```bash
-javac Arrays/Spiral_Matrix_Traversal.java
-java -cp Arrays Spiral_Matrix_Traversal
+javac Arrays/Spiral_Matrix_Traversal_LT54.java
+java -cp Arrays Spiral_Matrix_Traversal_LT54
 ```
