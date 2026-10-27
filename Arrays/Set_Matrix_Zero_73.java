@@ -29,9 +29,9 @@ public class Set_Matrix_Zero_73 {
     }
 
     static class OptimalSolution{
-        public static void setZeroes(int[][]matrix){
-            int n = matrix.length;
-            int m = matrix[0].length;
+        public static void setZeroes(int[][] matrix){
+            int rows = matrix.length;
+            int cols = matrix[0].length;
 
             int col0 = 1;
 
