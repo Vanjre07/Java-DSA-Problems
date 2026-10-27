@@ -53,6 +53,6 @@ public class Spiral_Matrix_Traversal_LT54 {
         };
 
         List<Integer> result = spiralOrder(matrix);
-        System.out.println(result);
+        System.out.print(result);
     }
 }

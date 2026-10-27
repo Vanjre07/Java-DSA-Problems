@@ -9,8 +9,6 @@
       <sourceFolder url="file://$MODULE_DIR$/Trees" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Binary Search Tree" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Hashing" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Hashing/Hashset" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Hashing/HashMap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Trie" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Arrays" isTestSource="false" />
     </content>
