@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.*;
 public class Two_Sum_1 {
     static class Brute_Force{

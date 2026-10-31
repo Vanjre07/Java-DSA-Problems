@@ -22,10 +22,10 @@ public class Spiral_Matrix_Traversal_LT54 {
             }
             right--;
 
-            //left -> right
+            //right -> left
 
-            if (top <= bottom) {
-                for (int i = right; i >= left; i--) {
+                    if (top <= bottom) {
+                        for (int i = right; i >= left; i--) {
                     list.add(matrix[bottom][i]);
                 }
                 bottom--;
