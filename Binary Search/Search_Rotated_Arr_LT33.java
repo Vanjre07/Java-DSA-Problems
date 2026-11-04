@@ -12,6 +12,7 @@ public class Search_Rotated_Arr_LT33 {
             if(nums[mid] == target){
                 return mid;
             }
+
             if(nums[low] <= nums[mid]){
                 if(nums[low] <= target && target < nums[mid]){
                     high = mid - 1;
@@ -21,18 +22,20 @@ public class Search_Rotated_Arr_LT33 {
                 }
             }
             else{
-                if(nums[low] <= target && target < nums[mid]){
-                    low = mid +1;
+                if(nums[high] < target && target <= nums[high]){
+                    low = mid + 1;
                 }
                 else{
                     high = mid - 1;
                 }
             }
-
         }
         return -1;
     }
     public static void main(String[] args) {
+        int[]nums = {4,5,6,7,0,1,2};
+        int target = 0;
 
+        System.out.print(Search(nums,target));
     }
 }
