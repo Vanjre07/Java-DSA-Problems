@@ -12,6 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Trie" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Arrays" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Binary Search" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Strings" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
