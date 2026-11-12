@@ -1,5 +1,5 @@
 import java.util.*;
-public class Max_Sum_non_Adjacent_Ele {
+public class House_Robber_1_LT198 {
     public static int Max_Sum(int[]nums){
         int n = nums.length;
         int []dp =  new int[n];
