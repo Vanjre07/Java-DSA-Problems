@@ -14,6 +14,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Binary Search" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Strings" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Dynamic Programming" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Greedy Algorithmn" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
