@@ -23,6 +23,18 @@ public class BFS {
      }
 
     public static void main(String[] args) {
+        int v = 5;
+        ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
+        for (int i = 0; i < v; i++) {
+            adj.add(new ArrayList<>());
+        }
 
+        adj.get(0).addAll(Arrays.asList(1, 2));
+        adj.get(1).addAll(Arrays.asList(0, 3, 4));
+        adj.get(2).addAll(Arrays.asList(0, 4));
+        adj.get(3).add(1);
+        adj.get(4).addAll(Arrays.asList(1, 2));
+
+        System.out.println(bfsGraph(v, adj));
     }
 }
